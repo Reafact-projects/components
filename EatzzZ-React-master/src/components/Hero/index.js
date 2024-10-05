@@ -24,7 +24,7 @@ const Hero = () => {
             <HeroContent>
                 <HeroItems>
                     <HeroH1>George HotDogs</HeroH1>
-                    <HeroB>Ready in 2 minutes</HeroB>
+                    <HeroB>Family-Owned & Operated Since 1948</HeroB>
                     <HeroBtn>Place Order!</HeroBtn>
                 </HeroItems>
             </HeroContent>
