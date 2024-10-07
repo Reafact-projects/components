@@ -1,6 +1,3 @@
-import grilled from '../../images/grilled.png'
-import paleopizza from '../../images/paleo.png'
-import chickenparmesan from '../../images/parmesan.jpg'
 import donut from '../../images/donut.jpg';
 import purple from '../../images/purple.jpg';
 import brownie from '../../images/brownie.jpg';
