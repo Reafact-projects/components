@@ -9,9 +9,12 @@ import Feature from './components/Feature';
 import Footer from './components/Footer';
 import Background from "./components/helpers/Background";
 import darkGreyBg from "./images/dark-grey-bg.png"
+
+
+
 function App() {
   return (
-    <Router>
+    <Router>  
       <GlobalStyle />
       <Hero />
       {/* <Products heading='Choose your favorite' data={productData} /> */}
@@ -19,7 +22,6 @@ function App() {
       <Menu/>
       </Background>
       <Feature />
-      <Products heading='Sweet Treats for You' data={productDataTwo} />
       <Footer />
     </Router>
   );

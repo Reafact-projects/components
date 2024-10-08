@@ -19,12 +19,12 @@ const Hero = () => {
     }
     return (
         <HeroContainer>
-            <Navbar toggle={toggle} />
+            <Navbar />
             <Sidebar isOpen={isOpen} toggle={toggle} />
             <HeroContent>
                 <HeroItems>
-                    <HeroH1>George HotDogs</HeroH1>
-                    <HeroB>Family-Owned & Operated Since 1948</HeroB>
+                    <HeroH1>George's HotDogs Family-Owned & Operated Since 1948 </HeroH1>
+                    <HeroB></HeroB>
                     <HeroBtn>Place Order!</HeroBtn>
                 </HeroItems>
             </HeroContent>

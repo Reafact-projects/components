@@ -1,0 +1,44 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white; /* Adjust if needed */
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-menu-icon {
+    font-size: 24px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .navbar-brand {
+    font-family: 'Georgia', serif; /* Adjust to match font style */
+    font-weight: bold;
+    font-size: 24px;
+    color: black;
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar-links li a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Arial', sans-serif; /* Adjust for matching font */
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+  
+  .navbar-links li a:hover {
+    color: #555; /* Hover color */
+  }
