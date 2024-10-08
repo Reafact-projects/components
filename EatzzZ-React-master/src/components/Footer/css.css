@@ -1,0 +1,113 @@
+footer {
+    background-color: #1a202c; /* Equivalent to bg-gray-900 */
+    color: #fff; /* Equivalent to text-white */
+    padding: 3rem 0; /* Equivalent to py-12 */
+  }
+  
+  .container {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem; /* Equivalent to px-4 */
+    padding-right: 1rem;
+  }
+  
+  @media (min-width: 640px) {
+    .container {
+      padding-left: 1.5rem; /* Equivalent to sm:px-6 */
+      padding-right: 1.5rem;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .container {
+      padding-left: 2rem; /* Equivalent to lg:px-8 */
+      padding-right: 2rem;
+    }
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem; /* Equivalent to gap-6 */
+  }
+  
+  @media (min-width: 768px) {
+    .grid {
+      grid-template-columns: repeat(3, 1fr); /* Equivalent to md:grid-cols-3 */
+    }
+  }
+  
+  .text-primary {
+    color: #ffc500; /* Use your primary color here */
+  }
+  
+  .md\:col-span-1 {
+    grid-column: span 1 / span 1; /* Equivalent to md:col-span-1 */
+  }
+  
+  h2 {
+    font-size: 1.5rem; /* Equivalent to text-2xl */
+    font-weight: 700; /* Equivalent to font-bold */
+    margin-bottom: 1rem; /* Equivalent to mb-4 */
+  }
+  
+  p {
+    color: #718096; /* Equivalent to text-gray-400 */
+  }
+  
+  .grid-cols-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Equivalent to grid-cols-2 */
+    gap: 1rem; /* Equivalent to gap-4 */
+  }
+  
+  h3 {
+    font-size: 1.125rem; /* Equivalent to text-lg */
+    font-weight: 600; /* Equivalent to font-semibold */
+    margin-bottom: 0.5rem; /* Equivalent to mb-2 */
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 0.5rem; /* Equivalent to space-y-2 */
+  }
+  
+  a {
+    color: #718096; /* Equivalent to text-gray-400 */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #fff; /* Equivalent to hover:text-white */
+  }
+  
+  .md\:justify-end {
+    justify-content: flex-end; /* Equivalent to md:justify-end */
+  }
+  
+  .flex {
+    display: flex;
+    align-items: center;
+  }
+  
+  .space-x-4 > * + * {
+    margin-left: 1rem; /* Equivalent to space-x-4 */
+  }
+  
+  .text-gray-400 {
+    color: #718096;
+  }
+  
+  .text-gray-400:hover {
+    color: #fff;
+  }
+  
+  .font-awesome-icon {
+    font-size: 1.25rem; /* Equivalent to size="lg" */
+  }
+  
