@@ -1,4 +1,5 @@
 main{
+    background-image: ("../../images/dark-grey-bg.png");
     width: min(1200px, 90vw);
     margin: auto;
 }
@@ -12,7 +13,6 @@ main{
         #000 10% 90%,
         transparent
     );
-    background-color: #000;
 
 }
 .slider .list{
