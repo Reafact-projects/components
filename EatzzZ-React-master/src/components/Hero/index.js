@@ -7,16 +7,12 @@ import {
     HeroB, 
     HeroBtn 
 } from './HeroElements'
-
+import Navbar from '../Navbar'
 
 const Hero = () => {
-
-
-  
     return (
         <HeroContainer>
             <Navbar />
-            <Sidebar isOpen={isOpen} toggle={toggle} />
             <HeroContent>
                 <HeroItems>
                     <HeroH1>George's HotDogs Family-Owned & Operated Since 1948 </HeroH1>
