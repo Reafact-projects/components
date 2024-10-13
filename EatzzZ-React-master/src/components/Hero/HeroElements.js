@@ -38,6 +38,9 @@ export const HeroH1 = styled.h1`
     margin-bottom: 1rem;
     box-shadow: 3px 5px #fff
     letter-spacing: 3px;
+    font-family: 'Londrina Sketch', cursive;
+
+
 `
 
 export const HeroB = styled.b`
@@ -46,6 +49,8 @@ export const HeroB = styled.b`
 `
 
 export const HeroBtn = styled.button`
+      font-family: 'Londrina Sketch', cursive;
+
     font-size: 1.4rem;
     padding: 1rem 3.5rem;
     border: none;
