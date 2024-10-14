@@ -8,19 +8,23 @@ import Footer from './components/Footer';
 import Background from "./components/helpers/Background";
 import darkGreyBg from "./images/dark-grey-bg.png"
 import Slider from './components/Slider/slider.jsx';
-
+import MediaPress from './components/Media/Media&Press.jsx';
+import Navbar from './components/Navbar/index.js'
+import Contact from "./components/Contact/Contact.jsx";
 function App() {
   return (
     <Router>  
       <GlobalStyle />
+      <Navbar />
       <Hero />
       
-      <Feature />
       <Background url={darkGreyBg}>
+      <Feature />
       <Menu/>
       <Slider/>
+      <MediaPress/>
+      <Contact />
       </Background>
-      
       <Footer />
     </Router>
   );

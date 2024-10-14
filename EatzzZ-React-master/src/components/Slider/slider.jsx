@@ -1,6 +1,7 @@
 import React from 'react';
 import './slider.css';
 import { meals } from './meals';
+import MenuTitle from '../Titles/Title';
 
 function Slider() {
   const sliderStyles = {
@@ -9,7 +10,8 @@ function Slider() {
     '--quantity': 12
   };
 
-  return (
+  return (<div className="container">
+     <MenuTitle ph1="CLIENT" ph2="fAVORITE" />
     <main>
       <div className="slider" style={sliderStyles}>
         <div className="list">
@@ -23,6 +25,7 @@ function Slider() {
         </div>
       </div>
     </main>
+    </div>
   );
 }
 
